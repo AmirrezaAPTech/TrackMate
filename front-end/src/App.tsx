@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header'
+import HomePage from './components/HomePage'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <div>
         <div className='w-screen'>
           <Header />
+          <HomePage />
         </div>
 
     </div>
