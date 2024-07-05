@@ -4,7 +4,7 @@ import { faCircleUser } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   return (
-    <div className="sticky flex justify-between items-center w-[90%] mx-auto mt-5">
+    <div className="absolute flex justify-between items-center w-full mx-auto mt-5 px-[90px]">
         <div className="flex justify-center items-center gap-1">
         <div className="bg-white w-[20px] h-[20px] rounded-full"></div>
         <h1 className="font-semibold text-3xl">TrackMate</h1>

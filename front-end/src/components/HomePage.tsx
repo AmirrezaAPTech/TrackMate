@@ -29,7 +29,7 @@ const HomePage = () => {
 
     return (
         <div className='w-full'>
-            <div className='flex max-md:flex-col justify-between items-center h-screen w-[90%] mx-auto'>
+            <div id='landingPageA' className='flex max-md:flex-col justify-between items-center h-screen w-full mx-auto px-24 pt-24'>
                 <div className='flex flex-col gap-5'>
                     <p className='text-2xl'>Own Your Daily Routine</p>
                     <h2 className='font-semibold text-7xl'>0.4 TrackMate XE</h2>
