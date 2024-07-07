@@ -41,15 +41,9 @@ const HomePage = () => {
                 </div>
             </div>
             <div className='h-screen w-screen'>
-                <div className='h-full w-[75%] bg-[#222323] relative image-container'>
-                    <div className="absolute inset-0 w-60 bg-[#232323] flex-1 bg-transparent to-transparent" ></div>
-                    <div className="absolute inset-0 w-[full]" style={{ backgroundColor: `rgba(0, 0, 0, ${scrollOpacity})` }}></div>
-                    <div className="absolute inset-0 bg-gradient-to-r from-[#232323] via-[#232323]/20 to-transparent"></div>
-                    <div className='absolute flex'>
-                    <div>
-                    <img src={phoneImg} alt="phone" />
-                    </div>
-                    <div className='w-[600px] h-screen ml-64 flex flex-col justify-center items-start gap-y-9'>
+                <div className='flex'>
+            <div className='absolute flex justify-around items-center w-full z-10' >
+            <div className='w-[600px] h-screen flex flex-col justify-center items-start gap-y-12'>
                       <div className='flex justify-center items-center gap-4'>
                       <img src={Icon2} alt="Icon 2" />
                       <p className='text-xl'>WORKOUT TRACKING</p>
@@ -60,9 +54,21 @@ const HomePage = () => {
                       <p className='text-lg font-semibold'>
                       I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
                       </p>
-                    </div></div>
-                    <img src={WomanTrackingImg} alt="WomanTrackingImg" className="h-full w-[97%] object-cover" />
+                    </div>
+                    <div>
+                    <img src={phoneImg} alt="phone" />
+                    </div>
+                    </div>
+                <div className='relative h-full w-[73%] image-container'>
+                    <div className="inset-0 w-60 bg-[#232323] flex-1 bg-transparent to-transparent"  ></div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-[#232323] via-[#232323]/20 to-transparent"style={{ backgroundColor: `rgba(0, 0, 0, ${scrollOpacity})` }}></div>
+                    <img src={WomanTrackingImg} alt="WomanTrackingImg" className="h-full w-full object-cover" />
                 </div>
+                <div>
+                    <div className='w-12 h-full bg-white'></div>
+                </div>
+                </div>
+
             </div>
         </div>
     );
