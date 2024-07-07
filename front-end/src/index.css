@@ -24,6 +24,9 @@ background: radial-gradient(circle at 74.11507924397786% 94.03727213541667%, #22
 #landingPageB {
 background: radial-gradient(circle at 56.9488525390625% 24.38532511393229%, rgba(0,0,0,0.53) 0%, 17.5%, rgba(0,0,0,0) 35%), radial-gradient(circle at 0% 89.06834920247397%, rgba(126,161,230,0.64) 0%, 25%, rgba(126,161,230,0) 50%), radial-gradient(circle at 24.880879720052082% 2.7083333333333335%, rgba(162,56,255,0.24) 0%, 21.42%, rgba(162,56,255,0) 63%), radial-gradient(circle at 47.419840494791664% 89.46019490559895%, rgba(162,56,255,0.4) 0%, 22.75%, rgba(162,56,255,0) 35%), radial-gradient(circle at 2.2102864583333335% 51.366170247395836%, #000000 0%, 29%, rgba(0,0,0,0) 29%), radial-gradient(circle at 48.9013671875% 49.521484375%, #000000 0%, 100%, rgba(0,0,0,0) 100%);
 }
+#landingPageC {
+background: radial-gradient(circle at 96.05364481608073% 5.310923258463542%, rgba(22,87,217,0.53) 0%, 17.5%, rgba(22,87,217,0) 35%), radial-gradient(circle at 0% 96.65751139322917%, #361355 0%, 22.75%, rgba(54,19,85,0) 35%), radial-gradient(circle at 48.9013671875% 49.521484375%, #000000 0%, 100%, rgba(0,0,0,0) 100%);
+}
 
 a {
   font-weight: 500;

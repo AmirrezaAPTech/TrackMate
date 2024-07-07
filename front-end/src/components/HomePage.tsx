@@ -3,6 +3,7 @@ import ProductImg from '../Img/ProductImg.webp'
 import WomanTrackingImg from '../Img/WomanTrackingImg.png'
 import Icon2 from '../Img/icon 2.webp'
 import phoneImg from '../Img/phone.webp'
+import LandingPageC from './LandingPages/LandingPageC';
 
 const HomePage = () => {
     const [scrollOpacity, setScrollOpacity] = useState(0);
@@ -41,7 +42,7 @@ const HomePage = () => {
                 </div>
             </div>
             <div className='h-screen w-screen'>
-                <div className='flex'>
+                <div className='flex justify-between h-screen'>
             <div className='absolute flex justify-around items-center w-full z-10' >
             <div className='w-[600px] h-screen flex flex-col justify-center items-start gap-y-12'>
                       <div className='flex justify-center items-center gap-4'>
@@ -59,17 +60,16 @@ const HomePage = () => {
                     <img src={phoneImg} alt="phone" />
                     </div>
                     </div>
-                <div className='relative h-full w-[73%] image-container'>
+                    <div className="inset-0 w-60 bg-[#232323] flex-1 bg-transparent to-transparent"></div>
+                <div className='relative h-full w-[63%] image-container'>
                     <div className="inset-0 w-60 bg-[#232323] flex-1 bg-transparent to-transparent"  ></div>
-                    <div className="absolute inset-0 bg-gradient-to-r from-[#232323] via-[#232323]/20 to-transparent"style={{ backgroundColor: `rgba(0, 0, 0, ${scrollOpacity})` }}></div>
-                    <img src={WomanTrackingImg} alt="WomanTrackingImg" className="h-full w-full object-cover" />
+                    <div className="absolute inset-0 bg-gradient-to-r from-[#232323] via-[#232323]/20 to-transparent w-[97%]"style={{ backgroundColor: `rgba(0, 0, 0, ${scrollOpacity})` }}></div>
+                    <img src={WomanTrackingImg} alt="WomanTrackingImg" className="h-full w-[97%] object-cover" />
                 </div>
-                <div>
-                    <div className='w-12 h-full bg-white'></div>
+                    <div id='landingPageB' className='w-[25%] h-full'></div>
                 </div>
-                </div>
-
             </div>
+            <LandingPageC />
         </div>
     );
 }
