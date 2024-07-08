@@ -72,7 +72,6 @@ const HomePage = () => {
             </div>
             <LandingPageC />
             <LandingPageD />
-            <div className='h-screen w-screen'></div>
         </div>
     );
 }
