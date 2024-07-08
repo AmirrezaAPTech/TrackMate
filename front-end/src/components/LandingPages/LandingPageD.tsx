@@ -29,8 +29,8 @@ const LandingPageD = () => {
   }, []);
 
   return (
-    <div className="relative h-screen flex flex-col items-center">
-      <div className='w-screen absolute flex flex-col items-center z-50 pb-28'>
+    <div className="relative h-[130vh] flex flex-col items-center">
+      <div className='w-screen absolute flex flex-col items-center z-50'>
       <div className="w-[700px] text-center flex flex-col justify-center items-center gap-y-9 pt-9">
         <img src={icon4} alt="icon4" />
         <p className="text-5xl">Match Your Band to Your Style</p>
