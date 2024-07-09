@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
 import ProductImage from "../../../Img/Specifications_ProductImg.webp"
+import BatteryIcon from "../../../Img/BatteryIcon.webp"
+import SpecificationsCard from './SpecificationsCard';
+
 const Specifications = () => {
     const [scrollOpacity, setScrollOpacity] = useState(0);
 
@@ -30,6 +33,25 @@ const Specifications = () => {
     <div id="specifications" className="specifications-image-container h-auto w-screen flex flex-col justify-center gap-y-20 items-center py-32 z-50 relative">
     <div className="absolute inset-0 bg-gradient-to-b from-[#232323] via-[#232323]/20 to-transparent w-full h-full"style={{ backgroundColor: `rgba(34, 35, 35, ${scrollOpacity})` }}></div>
         <img src={ProductImage} alt="ProductImage" className="w-[678px] h-[871px] z-10"/>
+    <div className='absolute z-50 flex flex-col justify-between items-center h-[871px]'>
+        <div className='flex justify-between items-center w-[1200px]'>
+            <div className='absolute top-24 left-0'>
+        <SpecificationsCard imgUrl={BatteryIcon} title='20 Hour Battery Life' />
+            </div>
+            <div className='absolute top-0 right-0'>
+        <SpecificationsCard imgUrl={BatteryIcon} title='20 Hour Battery Life' />
+            </div>
+        </div>
+        <div className='flex justify-between items-center w-[1200px]'>
+        <div className='absolute bottom-0 left-0'>
+        <SpecificationsCard imgUrl={BatteryIcon} title='20 Hour Battery Life' />
+            </div>
+            <div className='absolute bottom-24 right-0'>
+        <SpecificationsCard imgUrl={BatteryIcon} title='20 Hour Battery Life' />
+            </div>
+        </div>
+    </div>
+    <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-md shadow-[#a238ff7d] '>Buy Now</button>
     </div>
     </div>
   )
