@@ -6,6 +6,7 @@ import phoneImg from '../Img/phone.webp'
 import LandingPageC from './LandingPages/LandingPageC';
 import LandingPageD from './LandingPages/LandingPageD';
 import LandingPageE from './LandingPages/LandingPageE';
+import Specifications from './LandingPages/Specifications/Specifications';
 
 const HomePage = () => {
     const [scrollOpacity, setScrollOpacity] = useState(0);
@@ -74,6 +75,7 @@ const HomePage = () => {
             <LandingPageC />
             <LandingPageD />
             <LandingPageE />
+            <Specifications />
         </div>
     );
 }

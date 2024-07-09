@@ -27,6 +27,9 @@ background: radial-gradient(circle at 56.9488525390625% 24.38532511393229%, rgba
 #landingPageC {
 background: radial-gradient(circle at 96.05364481608073% 5.310923258463542%, rgba(22,87,217,0.53) 0%, 17.5%, rgba(22,87,217,0) 35%), radial-gradient(circle at 0% 96.65751139322917%, #361355 0%, 22.75%, rgba(54,19,85,0) 35%), radial-gradient(circle at 48.9013671875% 49.521484375%, #000000 0%, 100%, rgba(0,0,0,0) 100%);
 }
+#specifications{
+ background: radial-gradient(circle at 43.97295633951823% 52.83325195312501%, rgba(126,161,230,0.63) 0%, 21.349999999999998%, rgba(126,161,230,0) 35%), radial-gradient(circle at 5.601628621419271% 89.0545654296875%, #000000 0%, 17.5%, rgba(0,0,0,0) 35%), radial-gradient(circle at 95.35859425862631% 89.99893188476562%, #000000 0%, 20%, rgba(0,0,0,0) 40%), radial-gradient(circle at 56.95167541503906% 53.199005126953125%, rgba(194,125,255,0.71) 0%, 34.5%, rgba(194,125,255,0) 50%), radial-gradient(circle at 4.5797475179036455% 9.796346028645834%, #000000 0%, 42%, rgba(0,0,0,0) 70%), radial-gradient(circle at 93.6865234375% 11.42578125%, #000000 0%, 42%, rgba(0,0,0,0) 70%), radial-gradient(circle at 48.9013671875% 49.521484375%, #000000 0%, 100%, rgba(0,0,0,0) 100%);
+}
 
 a {
   font-weight: 500;

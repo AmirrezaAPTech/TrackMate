@@ -3,7 +3,7 @@ import Icon5 from "../../Img/icon 5.webp";
 
 const LandingPageE = () => {
   return (
-    <div className="relative flex h-screen flex-col items-start justify-center bg-fixed bg-center bg-cover row-span-4" style={{ backgroundImage: `url(${maleTracking})` }}>
+    <div className="relative flex h-[85vh] flex-col items-start justify-center bg-fixed bg-center bg-cover row-span-4" style={{ backgroundImage: `url(${maleTracking})` }}>
       <div className="absolute inset-0 bg-[rgb(34,35,35)] opacity-20 w-full h-full z-10"></div>
       <div className="parallax-background z-50">
       <div className='w-[600px] h-screen flex flex-col justify-center items-start gap-y-12 ml-60'>
