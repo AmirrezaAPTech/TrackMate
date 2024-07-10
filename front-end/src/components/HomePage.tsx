@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import ProductImg from '../Img/ProductImg.webp'
-import WomanTrackingImg from '../Img/WomanTrackingImg.png'
+import WomanTrackingImg from '../Img/WomanTrackingImg.webp'
 import Icon2 from '../Img/icon 2.webp'
 import phoneImg from '../Img/phone.webp'
 import LandingPageC from './LandingPages/LandingPageC';
