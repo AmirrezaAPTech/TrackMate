@@ -9,6 +9,7 @@ import LandingPageE from './LandingPages/LandingPageE';
 import Specifications from './LandingPages/Specifications/Specifications';
 import HabitsMindfulness from './LandingPages/HabitsMindfulness';
 import ChangingDevice from './LandingPages/ChangingDevice';
+import Subscribe from './LandingPages/Subscribe';
 
 const HomePage = () => {
     const [scrollOpacity, setScrollOpacity] = useState(0);
@@ -80,6 +81,7 @@ const HomePage = () => {
             <Specifications />
             <HabitsMindfulness />
             <ChangingDevice />
+            <Subscribe/>
         </div>
     );
 }

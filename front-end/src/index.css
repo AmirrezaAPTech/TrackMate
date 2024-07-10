@@ -89,3 +89,20 @@ a{
   color: white;
 }
 
+.mountain-text {
+  text-align: center;
+  line-height: 1.4;
+  position: relative;
+  display: inline-block;
+}
+
+.mountain-text::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 40%;
+  height: 100%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
