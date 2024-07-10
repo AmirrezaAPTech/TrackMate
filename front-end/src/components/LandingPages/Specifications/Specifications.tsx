@@ -51,7 +51,7 @@ const Specifications = () => {
             </div>
         </div>
     </div>
-    <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-md shadow-[#a238ff7d] '>Buy Now</button>
+    <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-md shadow-[#a238ff7d] z-50'>Buy Now</button>
     </div>
     </div>
   )
