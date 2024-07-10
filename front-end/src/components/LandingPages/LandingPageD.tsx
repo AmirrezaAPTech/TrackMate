@@ -41,7 +41,7 @@ const LandingPageD = () => {
       <div className=''>
         <img src={ProductImage} alt="ProductImage" />
       </div>
-      <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-md shadow-[#a238ff7d] '>Buy Now</button>
+      <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-custom '>Buy Now</button>
       </div>
       <div ref={containerRef} className="w-[120vw] overflow-hidden relative">
         <img
