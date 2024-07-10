@@ -12,7 +12,7 @@ const Header = () => {
         <div className="flex justify-center items-center gap-5 text-white text-xl">
             <a href=""><h2 className="text-2xl font-normal">FAQ</h2></a>
             <a href="" className='flex justify-center items-center gap-1'><FontAwesomeIcon icon={faCircleUser} /> <p>Log In</p></a>
-            <button className='bg-[#A238FF] text-white font-normal text-md px-6 py-1 rounded-3xl shadow-md shadow-[#a238ff7d] '>Buy Now</button>
+            <button className='bg-[#A238FF] text-white font-normal text-md px-6 py-1 rounded-3xl shadow-custom transition duration-300 hover:text-black hover:bg-white'>Buy Now</button>
         </div>
     </div>
   )

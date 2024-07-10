@@ -8,7 +8,7 @@ const ChangingDevice = () => {
               <img src={ChangingDeviceIcon} alt="ChangingDeviceIcon" />
               <p className="text-[14px] text-semibold tracking-[.3em]">A LIFE CHANGING DEVICE</p>
               <p className="text-6xl line">Get Your 0.4 TrackMate XE Today</p>
-              <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-custom '>Buy Now</button>
+              <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-custom transition duration-300 hover:text-black hover:bg-white '>Buy Now</button>
             </div>
             <img src={ProductImage} alt="ProductImage" />
     </div>

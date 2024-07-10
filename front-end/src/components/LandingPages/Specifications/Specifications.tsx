@@ -51,7 +51,7 @@ const Specifications = () => {
             </div>
         </div>
     </div>
-    <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-custom z-50'>Buy Now</button>
+    <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-custom z-50 transition duration-300 hover:text-black hover:bg-white'>Buy Now</button>
     </div>
     </div>
   )

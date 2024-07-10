@@ -16,7 +16,7 @@ const LandingPageD = () => {
         const windowHeight = window.innerHeight;
         const scrollPosition = windowHeight - containerTop;
         const maxScroll = windowHeight + containerHeight;
-        const skewDegree = ((maxScroll - scrollPosition) / maxScroll) * 45 - 20;
+        const skewDegree = ((maxScroll - scrollPosition) / maxScroll) * 47 - 20;
         
         setSkew(skewDegree);
       }
@@ -41,7 +41,7 @@ const LandingPageD = () => {
       <div className=''>
         <img src={ProductImage} alt="ProductImage" />
       </div>
-      <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-custom '>Buy Now</button>
+      <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-custom transition duration-300 hover:text-black hover:bg-white '>Buy Now</button>
       </div>
       <div ref={containerRef} className="w-[120vw] overflow-hidden relative">
         <img

@@ -42,7 +42,7 @@ const HomePage = () => {
                     <p className='text-2xl'>Own Your Daily Routine</p>
                     <h2 className='font-semibold text-7xl'>0.4 TrackMate XE</h2>
                     <p className='text-2xl'>A health tracker that motivates you every step of the way</p>
-                    <button className='bg-[#A238FF] w-48 text-white font-normal text-md px-6 py-2 rounded-3xl shadow-custom '>Buy Now</button>
+                    <button className='bg-[#A238FF] w-48 text-white font-normal text-md px-6 py-2 rounded-3xl shadow-custom  transition duration-300 hover:text-black hover:bg-white '>Buy Now</button>
                 </div>
                 <div>
                     <img src={ProductImg} alt="ProductImg" />

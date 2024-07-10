@@ -33,6 +33,17 @@ background: radial-gradient(circle at 96.05364481608073% 5.310923258463542%, rgb
 #footer{
  background: linear-gradient(0deg, #361355 0%, #222323 45.46630382537842%, #222323 96.09375%);
 }
+/* button {
+  background-color: #000000;
+  color: white;
+  transition: background-color 5s ease, color 5s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: #000000;
+  animation: 5s ease;
+} */
 
 a {
   font-weight: 500;
