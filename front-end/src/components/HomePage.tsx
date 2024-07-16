@@ -12,7 +12,7 @@ import WorkoutTracking from './LandingPages/WorkoutTracking';
 
 const HomePage = () => {
     return (
-        <div className='w-full'>
+        <div className='w-full overflow-hidden'>
             <div id='landingPageA' className='flex max-md:flex-col justify-between max-md:justify-evenly items-center h-screen w-full mx-auto max-lg:gap-x-2 xl:px-24 lg:px-10 md:px-9 pt-24'>
                 <div className='flex flex-col gap-5 lg:gap-x-12 max-md:items-center max-md:text-center max-md:px-2'>
                     <p className='text-2xl max-lg:text-xl'>Own Your Daily Routine</p>
