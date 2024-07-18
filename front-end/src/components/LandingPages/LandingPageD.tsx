@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import icon4 from "../../Img/icon 4.webp";
 import LineD from "../../Img/LineD.png";
 import ProductImage from "../../Img/ProductImage_LPD.webp";
+import ButtonDecoration from '../ButtonDecoration';
 
 const LandingPageD = () => {
   const [skew, setSkew] = useState<number>(0);
@@ -41,7 +42,7 @@ const LandingPageD = () => {
       <div>
         <img src={ProductImage} alt="ProductImage" />
       </div>
-      <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-custom transition duration-300 hover:text-black hover:bg-white '>Buy Now</button>
+        <ButtonDecoration customCLass='sm:text-lg text-md sm:px-20 px-12 sm:py-2 py-1 mt-12'/>
       </div>
       <div ref={containerRef} className="2xl:w-[120vw] xl:w-[130vw] md:w-[140vw] 2xl:mt-28 xl:mt-36 md:mt-24 md:items-start overflow-hidden relative hidden md:flex">
         <img
