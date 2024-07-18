@@ -1,13 +1,14 @@
 import ProductImage from "../../Img/ProductImage_LPC.webp"
 import Icon3 from "../../Img/icon 3.webp"
+import TextDecoration from "../TextDecoration"
 const LandingPageC = () => {
   return (
-    <div className='flex justify-between items-center h-screen w-full'>
-        <div id='landingPageC' className='relative w-[25%] h-[80%] bg-yellow-400 '>
-    <img src={ProductImage} alt="ProductImage" className="absolute -right-40 top-[24%] z-50"/>
+    <div className='grid max-lg:grid-row-12 lg:grid-cols-12 items-center gap-10 lg:h-screen w-full'>
+        <div id='landingPageC' className='relative flex justify-center order-2 lg:order-1 items-center lg:col-span-3 h-[60vh] lg:h-[80%] '>
+    <img src={ProductImage} alt="ProductImage" className="lg:absolute lg:-right-24 xl:-right-40 lg:top-1/2 lg:transform lg:-translate-y-1/2 z-50"/>
         </div>
-        <div className="bg-[#2A2C2C] w-[73%] h-[80%] flex justify-center items-center">
-        <div className='w-[600px] h-screen flex flex-col justify-center items-start gap-y-12'>
+        <div className="relative bg-[#2A2C2C] order-1 lg:order-2 h-[60vh] lg:col-span-9 lg:h-[80%] flex justify-center items-center">
+        {/* <div className='w-[600px] h-screen flex flex-col justify-center items-start gap-y-12'>
                       <div className='flex justify-center items-center gap-4'>
                       <img src={Icon3} alt="Icon 3" />
                       <p className='text-xl'>NOTIFICATION SYSTEM</p>
@@ -17,7 +18,8 @@ const LandingPageC = () => {
                       </p>
                       <p className='text-lg font-semibold'>
                       I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.                      </p>
-                    </div>
+        </div> */}
+        <TextDecoration icon={Icon3} iconText="NOTIFICATION SYSTEM" title="Helpful Reminders To Keep You on Track" desc="I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font." />
         </div>
     </div>
   )

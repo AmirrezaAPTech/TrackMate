@@ -1,5 +1,6 @@
 // import { useEffect, useState } from 'react';
 import ProductImg from '../Img/ProductImg.webp'
+import LandingPageC from './LandingPages/LandingPageC';
 import WorkoutTracking from './LandingPages/WorkoutTracking';
 // import LandingPageC from './LandingPages/LandingPageC';
 // import LandingPageD from './LandingPages/LandingPageD';
@@ -25,8 +26,8 @@ const HomePage = () => {
                 </div>
             </div>
             <WorkoutTracking />
-            {/* <LandingPageC />
-            <LandingPageD />
+             <LandingPageC />
+            {/*<LandingPageD />
             <LandingPageE />
             <Specifications />
             <HabitsMindfulness />
