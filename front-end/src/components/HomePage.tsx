@@ -2,8 +2,7 @@
 import ProductImg from '../Img/ProductImg.webp'
 import LandingPageC from './LandingPages/LandingPageC';
 import WorkoutTracking from './LandingPages/WorkoutTracking';
-// import LandingPageC from './LandingPages/LandingPageC';
-// import LandingPageD from './LandingPages/LandingPageD';
+import LandingPageD from './LandingPages/LandingPageD';
 // import LandingPageE from './LandingPages/LandingPageE';
 // import Specifications from './LandingPages/Specifications/Specifications';
 // import HabitsMindfulness from './LandingPages/HabitsMindfulness';
@@ -27,8 +26,8 @@ const HomePage = () => {
             </div>
             <WorkoutTracking />
              <LandingPageC />
-            {/*<LandingPageD />
-            <LandingPageE />
+            <LandingPageD />
+            {/*<LandingPageE />
             <Specifications />
             <HabitsMindfulness />
             <ChangingDevice />

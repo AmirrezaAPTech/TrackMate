@@ -29,21 +29,21 @@ const LandingPageD = () => {
   }, []);
 
   return (
-    <div className="relative h-[130vh] flex flex-col items-center">
+    <div className="relative sm:h-[130vh] h-screen flex flex-col justify-center items-center">
       <div className='w-screen absolute flex flex-col items-center z-50'>
-      <div className="w-[700px] text-center flex flex-col justify-center items-center gap-y-9 pt-9">
+      <div className="w-[600px] min-[2260px]:w-[1200px] 2xl:w-[800px]  max-sm:w-[90%] text-center flex flex-col justify-center items-center gap-y-9 pt-9">
         <img src={icon4} alt="icon4" />
-        <p className="text-5xl">Match Your Band to Your Style</p>
-        <p className="text-md font-semibold">
+        <p className="text-5xl min-[2260px]:text-8xl 2xl:text-5xl max-xl:text-5xl max-md:text-3xl max-sm:text-2xl max-[500px]:text-xl max-sm:font-semibold">Match Your Band to Your Style</p>
+        <p className="text-md min-[2260px]:text-2xl 2xl:text-xl font-semibold max-sm:text-md max-[500px]:text-sm">
           I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
         </p>
       </div>
-      <div className=''>
+      <div>
         <img src={ProductImage} alt="ProductImage" />
       </div>
       <button className='bg-[#A238FF] text-white font-normal text-lg px-20 py-2 mt-12 rounded-3xl shadow-custom transition duration-300 hover:text-black hover:bg-white '>Buy Now</button>
       </div>
-      <div ref={containerRef} className="w-[120vw] overflow-hidden relative">
+      <div ref={containerRef} className="2xl:w-[120vw] xl:w-[130vw] md:w-[140vw] 2xl:mt-28 xl:mt-36 md:mt-24 md:items-start overflow-hidden relative hidden md:flex">
         <img
           src={LineD}
           alt="Line"
