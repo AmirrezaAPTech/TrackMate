@@ -29,22 +29,22 @@ const HabitsMindfulness = () => {
       };
   }, []);
   return (
-    <div className="relative flex justify-center items-center gap-x-10 habitsMindfulness-image-container">
-          <div className="absolute z-10 inset-0 bg-gradient-to-b from-[#232323] via-[#232323]/20 to-transparent w-full h-full"style={{ backgroundColor: `rgba(34, 35, 35, ${scrollOpacity})` }}></div>
-        <div className="relative w-[741.5px] h-[954px] pt-10 overflow-hidden">
-            <img src={Habits} alt="Habits"  className="w-[741.5px] h-[954px]"/>
-            <div className="flex flex-col justify-center items-center gap-y-4 text-center absolute top-10 z-50 left-1/2 transform -translate-x-1/2">
+    <div className="relative flex flex-col lg:flex-row justify-center items-center gap-x-10 habitsMindfulness-image-container">
+          <div className="absolute hidden lg:block z-10 inset-0 bg-gradient-to-b from-[#232323] via-[#232323]/20 to-transparent w-full h-full"style={{ backgroundColor: `rgba(34, 35, 35, ${scrollOpacity})` }}></div>
+        <div className="relative w-[741.5px] max-h-[954px] pt-10 overflow-hidden">
+            <img src={Habits} alt="Habits"  className="w-[741.5px] h-[954px] object-contain"/>
+            <div className="flex flex-col justify-center items-center gap-y-4 text-center absolute top-10 z-50 left-1/2 transform -translate-x-1/2 max-sm:px-8">
               <img src={HabitsIcon} alt="HabitsIcon" />
               <p className="text-[14px] text-semibold tracking-[.3em]">LEARN MORE ABOUT YOURSELF</p>
-              <p className="text-[40px] line">Track Your Sleeping Habits</p>
+              <p className="text-[35px] xl:text-[40px]">Track Your Sleeping Habits</p>
             </div>
         </div>
-        <div className="relative w-[741.5px] h-[954px] pt-10 overflow-hidden" style={{ backgroundImage: `url(${Mindfulness})`, backgroundSize: 'cover' }}>
-            <img src={Mindfulness} alt="Mindfulness" className=" w-[741.5px] h-[954px]"/>
-            <div className="flex flex-col justify-center items-center gap-y-4 text-center absolute top-10 z-50 left-1/2 transform -translate-x-1/2">
+        <div className="relative w-[741.5px] h-[954px] pt-10 overflow-hidden">
+            <img src={Mindfulness} alt="Mindfulness" className=" w-[741.5px] h-[954px] object-contain"/>
+            <div className="flex flex-col justify-center items-center gap-y-4 text-center absolute top-10 z-50 left-1/2 transform -translate-x-1/2 max-sm:px-8">
               <img src={MindfulnessIcon} alt="MindfulnessIcon" />
               <p className="text-[14px] text-semibold tracking-[.3em]">TAKE A DEEP BREATH</p>
-              <p className="text-[40px] line">Get a Guided Mindfulness Break</p>
+              <p className="text-[35px] xl:text-[40px]">Get a Guided Mindfulness Break</p>
             </div>
         </div>
     </div>
