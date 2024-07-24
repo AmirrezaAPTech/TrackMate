@@ -30,7 +30,7 @@ const LandingPageD = () => {
   }, []);
 
   return (
-    <div className="relative sm:h-[130vh] h-screen flex flex-col justify-center items-center">
+    <div className="relative sm:h-[130vh] h-[110vh] flex flex-col justify-center items-center">
       <div className='w-screen absolute flex flex-col items-center z-50'>
       <div className="w-[600px] min-[2260px]:w-[1200px] 2xl:w-[800px]  max-sm:w-[90%] text-center flex flex-col justify-center items-center gap-y-9 pt-9">
         <img src={icon4} alt="icon4" />
@@ -42,7 +42,7 @@ const LandingPageD = () => {
       <div>
         <img src={ProductImage} alt="ProductImage" />
       </div>
-        <ButtonDecoration customCLass='sm:text-lg text-md sm:px-20 px-12 sm:py-2 py-1 mt-12'/>
+        <ButtonDecoration customCLass='sm:text-lg text-md sm:px-20 px-12 sm:py-2 py-1 mt-10'/>
       </div>
       <div ref={containerRef} className="2xl:w-[120vw] xl:w-[130vw] md:w-[140vw] 2xl:mt-28 xl:mt-36 md:mt-24 md:items-start overflow-hidden relative hidden md:flex">
         <img
