@@ -1,6 +1,6 @@
 import { useState } from "react";
 import CollapsibleSection from "./CollapsibleSection";
-import TrackMateColors from '../../constants/constants'
+import {TrackMateColors, CollapsibleSections} from '../../constants/constants'
 
 const ProductPage = () => {
   const [openSection, setOpenSection] = useState<string | null>(null);
@@ -52,27 +52,14 @@ const ProductPage = () => {
         <input type="number" onChange={(e) => setProductQuantity(Number(e.target.value))} value={productQuantity} defaultValue={1} min={1} max={5} className="w-24 h-12 bg-white mt-3 text-black pl-5 block"/>
         <button className='bg-[#A238FF] text-white font-normal text-lg w-full px-12 py-2 rounded-3xl shadow-custom transition duration-300 hover:text-black hover:bg-white mt-10' onClick={() => addToCart()}>Add to cart</button>
         <div className="mt-6 flex flex-col justify-center items-center">
+          {CollapsibleSections.map((section) => (
       <CollapsibleSection
-        title="PRODUCT INFO"
-        isOpen={openSection === 'PRODUCT INFO'}
-        onToggle={() => handleToggle('PRODUCT INFO')}
-      >
-        <p>I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.</p>
-      </CollapsibleSection>
-      <CollapsibleSection
-        title="RETURN & REFUND POLICY"
-        isOpen={openSection === 'RETURN & REFUND POLICY'}
-        onToggle={() => handleToggle('RETURN & REFUND POLICY')}
-      >
-        <p>I’m a Return and Refund policy. I’m a great place to let your customers know what to do in case they are dissatisfied with their purchase. Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers that they can buy with confidence.</p>
-      </CollapsibleSection>
-      <CollapsibleSection
-        title="SHIPPING INFO"
-        isOpen={openSection === 'SHIPPING INFO'}
-        onToggle={() => handleToggle('SHIPPING INFO')}
-      >
-        <p>I'm a shipping policy. I'm a great place to add more information about your shipping methods, packaging and cost. Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy from you with confidence.</p>
-      </CollapsibleSection>
+        title={section.title}
+        isOpen={openSection === section.title}
+        onToggle={() => handleToggle(section.title)}
+        text={section.text}
+      />
+          ))}
         </div>
         </div>
         </div>

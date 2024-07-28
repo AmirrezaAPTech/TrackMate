@@ -5,10 +5,10 @@ type CollapsibleSectionProps = {
   title: string;
   isOpen: boolean;
   onToggle: () => void;
-  children: React.ReactNode;
+  text: string;
 };
 
-const CollapsibleSection: React.FC<CollapsibleSectionProps> = ({ title, isOpen, onToggle, children }) => {
+const CollapsibleSection: React.FC<CollapsibleSectionProps> = ({ title, isOpen, onToggle, text }) => {
   return (
     <div className="mb-4 w-full">
       <div
@@ -20,7 +20,7 @@ const CollapsibleSection: React.FC<CollapsibleSectionProps> = ({ title, isOpen, 
       </div>
       {isOpen && (
         <div className="p-3 border border-gray-200">
-          {children}
+          {text}
         </div>
       )}
     </div>
