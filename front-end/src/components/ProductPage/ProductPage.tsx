@@ -21,7 +21,7 @@ const ProductPage = () => {
   }
 
   return (
-    <div className="w-full grid grid-cols-12 pt-52">
+    <div className="w-full grid grid-cols-12 lg:pt-52 pt-24 pb-16">
         <div className="xl:col-span-2 lg:col-span-1 col-span-1"></div>
         <div className="col-span-10 xl:col-span-8 lg:col-span-10 w-full min-h-screen flex max-lg:flex-col max-lg:gap-y-7 justify-center max-lg:items-center gap-x-12">
         <div className="lg:w-1/2 md:w-2/3 sm:w-3/4 w-full">

@@ -9,25 +9,25 @@ import Mastercard from "../../Img/Footer/brand-mastercard_3x.webp"
 
 const Footer = () => {
   return (
-    <div id="footer" className="md:h-[25vh] h-[40vh] max-md:pb-5 flex flex-col justify-center items-center gap-y-5">
+    <div id="footer" className="lg:h-[25vh] h-[40vh] max-lg:pb-5 flex flex-col justify-center items-center gap-y-5">
         <div className="flex flex-col justify-start items-center gap-y-5">
-        <div className="w-full h-[1px] bg-white md:hidden"></div>
+        <div className="w-full h-[1px] bg-white lg:hidden"></div>
             <div className="flex justify-center items-center gap-x-36 px-2">
-                    <ul className="list-none flex max-md:flex-col gap-y-4 justify-center items-center gap-x-12">
+                    <ul className="list-none flex max-lg:flex-col gap-y-4 justify-center items-center gap-x-12">
                         <li>Instagram</li>
                         <li>Facebook</li>
                         <li>Twitter</li>
                         <li>Tiktok</li>
                         <li>Youtube</li>
                     </ul>
-                    <ul className="list-none flex max-md:flex-col max-md:justify-between h-full md:justify-center items-center gap-x-12">
+                    <ul className="list-none flex max-lg:flex-col max-lg:justify-between h-full lg:justify-center items-center gap-x-12">
                         <li>Terms & Conditions</li>
                         <li>Shipping & Returns</li>
                         <li>Privacy Policy</li>
                     </ul>
             </div>
-            <div className="w-[95%] h-[1px] bg-white max-md:hidden"></div>
-            <div className="w-full flex justify-between max-md:flex-col gap-y-4 items-center gap-x-36">
+            <div className="w-[95%] h-[1px] bg-white max-lg:hidden"></div>
+            <div className="w-full flex justify-between max-lg:flex-col gap-y-4 items-center gap-x-36">
             <div className="flex justify-center items-center text-center">
                 <p>© 2035 by TrackMate. Created by <a href="https://github.com/AmirrezaAPTech" >AmirrezaAP</a></p>
             </div>
