@@ -21,10 +21,10 @@ const ProductPage = () => {
   }
 
   return (
-    <div className="w-full grid grid-cols-8 pt-52">
-        <div className="lg:col-span-2 col-span-1"></div>
-        <div className="col-span-4 w-full h-screen flex max-lg:flex-col max-lg:gap-y-7 max-lg:col-span-6 justify-center max-lg:items-center gap-x-12">
-        <div className="w-1/2">
+    <div className="w-full grid grid-cols-12 pt-52">
+        <div className="xl:col-span-2 lg:col-span-1 col-span-1"></div>
+        <div className="col-span-10 xl:col-span-8 lg:col-span-10 w-full min-h-screen flex max-lg:flex-col max-lg:gap-y-7 justify-center max-lg:items-center gap-x-12">
+        <div className="lg:w-1/2 md:w-2/3 sm:w-3/4 w-full">
             {/* <ProductImages/> */}
             <img src={selectedColorImageUrl} alt="ProductWhite" />
                     <div className="flex justify-start gap-x-6 mb-2">
@@ -36,8 +36,8 @@ const ProductPage = () => {
         </div>
             <p className='text-lg min-[2260px]:text-2xl 2xl:text-xl max-sm:text-md max-[500px]:text-sm'>I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.</p>
         </div>
-        <div className="w-1/2">
-        <p className='text-6xl min-[2260px]:text-8xl 2xl:text-5xl max-xl:text-5xl max-md:text-4xl max-sm:text-3xl max-[500px]:text-xl max-sm:font-semibold'>0.4 TrackMate XE</p>
+        <div className="lg:w-1/2 md:w-2/3 sm:w-3/4 w-full">
+        <p className='text-6xl min-[2260px]:text-6xl xl:text-5xl max-md:text-4xl max-sm:text-3xl max-[500px]:text-xl max-sm:font-semibold'>0.4 TrackMate XE</p>
         <p className='text-md mt-2'>SKU: 0001</p>
         <p className='text-2xl mt-5'>$85.00</p>
         <p className='text-md mt-5'>Color</p>
