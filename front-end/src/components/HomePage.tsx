@@ -9,7 +9,6 @@ import Specifications from './LandingPages/Specifications/Specifications';
 import HabitsMindfulness from './LandingPages/HabitsMindfulness';
 import ChangingDevice from './LandingPages/ChangingDevice';
 import Subscribe from './LandingPages/Subscribe';
-import Footer from './LandingPages/Footer';
 
 const HomePage = () => {
     return (
@@ -33,7 +32,6 @@ const HomePage = () => {
             <HabitsMindfulness />
             <ChangingDevice />
             <Subscribe/>
-            <Footer/>
         </div>
     );
 }
