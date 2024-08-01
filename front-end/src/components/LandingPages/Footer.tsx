@@ -9,18 +9,18 @@ import Mastercard from "../../Img/Footer/brand-mastercard_3x.webp"
 
 const Footer = () => {
   return (
-    <div id="footer" className="lg:h-[25vh] h-[40vh] max-lg:pb-5 flex flex-col justify-center items-center gap-y-5">
+    <div id="footer" className="w-screen lg:h-[25vh] max-lg:pb-5 flex flex-col justify-center items-center gap-y-5">
         <div className="flex flex-col justify-start items-center gap-y-5">
         <div className="w-full h-[1px] bg-white lg:hidden"></div>
             <div className="flex justify-center items-center gap-x-36 px-2">
-                    <ul className="list-none flex max-lg:flex-col gap-y-4 justify-center items-center gap-x-12">
+                    <ul className="list-none flex max-lg:flex-col gap-y-8 justify-center items-center gap-x-12">
                         <li>Instagram</li>
                         <li>Facebook</li>
                         <li>Twitter</li>
                         <li>Tiktok</li>
                         <li>Youtube</li>
                     </ul>
-                    <ul className="list-none flex max-lg:flex-col max-lg:justify-between h-full lg:justify-center items-center gap-x-12">
+                    <ul className="list-none flex max-lg:flex-col max-lg:justify-between h-full lg:justify-center items-start gap-x-12 gap-y-8">
                         <li>Terms & Conditions</li>
                         <li>Shipping & Returns</li>
                         <li>Privacy Policy</li>

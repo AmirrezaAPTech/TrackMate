@@ -6,16 +6,18 @@ import ProductPage from './components/ProductPage/ProductPage';
 import Footer from './components/LandingPages/Footer';
 import { Provider } from 'react-redux';
 import store from './features/store';
+import Register from './components/Auth/Register';
 
 function App() {
   return (
     <Provider store={store}>
     <Router>
-      <div className='w-screen'>
+      <div className='w-screen min-h-screen'>
         <Header/>
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/product" element={<ProductPage/>} />
+          <Route path="/register" element={<Register/>} />
         </Routes>
         <Footer />
       </div>

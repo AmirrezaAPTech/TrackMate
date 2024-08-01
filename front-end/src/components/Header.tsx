@@ -21,7 +21,7 @@ const Header = () => {
         </div></Link>
         <div className="flex justify-center max-sm:justify-end items-center 2xl:gap-10 md:gap-5 max-md:gap-4 text-white text-xl">
             <a href=""><h2 className="text-2xl font-normal max-sm:hidden">FAQ</h2></a>
-            <a href="" className='flex justify-center items-center gap-1 max-sm:text-2xl'><FontAwesomeIcon icon={faCircleUser} /><p className='max-sm:hidden'>Log In</p></a>
+            <Link to={"/register"}><div className='flex justify-center items-center gap-1 max-sm:text-2xl'><FontAwesomeIcon icon={faCircleUser} /><p className='max-sm:hidden'>Log In</p></div></Link>
             {/* <div className='text-3xl flex relative'><FontAwesomeIcon icon={faCartShopping} /><p className='text-base text-black absolute left-2/4 bottom-2 font-bold'>2</p></div> */}
             <div onClick={() => setCartShown(true)} className='relative flex justify-center items-end w-6 h-6 cursor-pointer transition-all duration-150 hover:opacity-60'>
             <img src={BagIcon} alt="BagIcon" className='w-6'/>
