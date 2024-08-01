@@ -4,7 +4,7 @@ import LineD from "../../Img/LineD.png";
 import ProductImage from "../../Img/ProductImage_LPD.webp";
 import ButtonDecoration from '../ButtonDecoration';
 
-const LandingPageD = () => {
+const BandStyle = () => {
   const [skew, setSkew] = useState<number>(0);
   const containerRef = useRef<HTMLDivElement | null>(null);
 
@@ -57,4 +57,4 @@ const LandingPageD = () => {
   );
 };
 
-export default LandingPageD;
+export default BandStyle;

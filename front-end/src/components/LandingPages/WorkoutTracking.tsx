@@ -38,23 +38,11 @@ const WorkoutTracking = () => {
                     <img src={WomanTrackingImg2xl} alt="WomanTrackingImg" className="h-full w-full object-cover hidden lg:block" />
                     <img src={WomanTrackingImgMd} alt="WomanTrackingImg" className="h-full w-full object-cover hidden max-lg:block max-sm:hidden" />
                     <img src={WomanTrackingImgSm} alt="WomanTrackingImg" className="h-full w-full object-cover hidden max-sm:block" />
-                    {/* <div className='absolute top-1/2 left-10 md:left-20 xl:left-52 transform -translate-y-1/2 max-sm:-translate-x-1/2 max-sm:left-1/2 w-[600px] min-[2260px]:w-[1200px] 2xl:w-[800px]  max-sm:w-[90%] flex flex-col justify-center items-start sm:gap-y-12 gap-y-8'>
-                    <div className='flex justify-center items-center gap-4'>
-                      <img src={Icon2} alt="Icon 2" />
-                      <p className='text-xl min-[2260px]:text-3xl 2xl:text-2xl max-sm:text-lg max-[500px]:text-md'>WORKOUT TRACKING</p>
-                      </div>
-                      <p className='text-6xl min-[2260px]:text-8xl 2xl:text-6xl max-xl:text-5xl max-md:text-4xl max-sm:text-3xl max-[500px]:text-xl max-sm:font-semibold'>
-                      Fine Tune Your Routine With Precise Workout Stats
-                      </p>
-                      <p className='text-lg min-[2260px]:text-2xl 2xl:text-xl font-semibold max-sm:text-md max-[500px]:text-sm'>
-                      I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                      </p>
-                    </div> */}
                     <TextDecoration icon={Icon2} iconText="WORKOUT TRACKING" title="Fine Tune Your Routine With Precise Workout Stats" desc="I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font." />
 
                 </div>
                 <div className='w-[3%] max-xl:w-full h-full max-xl:h-[30px] bg-[#232323]'></div>
-                <div id='landingPageB' className='relative w-[25%] max-xl:w-screen h-screen max-xl:flex max-xl:justify-center max-xl:items-center py-10'>
+                <div id='WorkoutTracking' className='relative w-[25%] max-xl:w-screen h-screen max-xl:flex max-xl:justify-center max-xl:items-center py-10'>
                     <div className='xl:absolute xl:-left-36 max-xl:-left-24 xl:top-1/2 xl:transform xl:-translate-y-1/2'>
                     <img src={phoneImg} alt="phone" className='max-xl:w-[300px] max-lg:w-[280px]'/>
                     </div>

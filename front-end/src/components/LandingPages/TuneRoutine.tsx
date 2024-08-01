@@ -2,7 +2,7 @@ import maleTracking from "../../Img/MaleTrackingImg.webp";
 import Icon5 from "../../Img/icon 5.webp";
 import TextDecoration from "../TextDecoration";
 
-const LandingPageE = () => {
+const TuneRoutine = () => {
   return (
     <div className="relative flex h-[85vh] flex-col items-start justify-center bg-fixed bg-center bg-cover row-span-4" style={{ backgroundImage: `url(${maleTracking})` }}>
       <div className="absolute inset-0 bg-[rgb(34,35,35)] opacity-20 w-full h-full z-10"></div>
@@ -13,4 +13,4 @@ const LandingPageE = () => {
   );
 }
 
-export default LandingPageE;
+export default TuneRoutine;

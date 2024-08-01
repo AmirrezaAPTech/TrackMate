@@ -1,11 +1,11 @@
-import visa from "../../Img/Footer/Visa.webp"
-import Diners from "../../Img/Footer/Diners.webp"
-import Discover from "../../Img/Footer/Discover.webp"
-import PayPal from "../../Img/Footer/PayPal.webp"
-import Amex from "../../Img/Footer/brand-amex_3x.webp"
-import Chinaunionpay from "../../Img/Footer//brand-chinaunionpay_3x.webp"
-import Jcb from "../../Img/Footer/brand-jcb_3x.webp"
-import Mastercard from "../../Img/Footer/brand-mastercard_3x.webp"
+import visa from "../Img/Footer/Visa.webp"
+import Diners from "../Img/Footer/Diners.webp"
+import Discover from "../Img/Footer/Discover.webp"
+import PayPal from "../Img/Footer/PayPal.webp"
+import Amex from "../Img/Footer/brand-amex_3x.webp"
+import Chinaunionpay from "../Img/Footer//brand-chinaunionpay_3x.webp"
+import Jcb from "../Img/Footer/brand-jcb_3x.webp"
+import Mastercard from "../Img/Footer/brand-mastercard_3x.webp"
 
 const Footer = () => {
   return (
