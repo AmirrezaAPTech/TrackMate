@@ -50,7 +50,10 @@ const cartSlice = createSlice({
     addItemToCart(state, action: PayloadAction<CartItem>) {
       const item = state.items.find((item) => item.color === action.payload.color);
       if (item) {
-        item.quantity += action.payload.quantity;
+        if(item.quantity + action.payload.quantity > 10) {
+          alert("Maximum quantity for each color is 10")
+        }
+        item.quantity = Math.min(item.quantity + action.payload.quantity, 10);
       } else {
         state.items.push(action.payload);
       }
