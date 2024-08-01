@@ -23,7 +23,7 @@ interface CartBoxProps {
         <div className="flex flex-col gap-y-1">
             <p className="text-[#B3B3B3]">0.4 TrackMate XE</p>
             <p className="font-semibold text-white text-xl">$85.00</p>
-            <input type="number" value={quantity} onChange={(e) => handleUpdateQuantity(color, Number(e.target.value))} className="border border-white w-16 text-white text-center"/>
+            <input type="number" value={quantity} onChange={(e) => handleUpdateQuantity(color, Number(e.target.value))} min={0} max={10} className="border border-white w-16 text-white text-center"/>
         </div>
     </div>
   )

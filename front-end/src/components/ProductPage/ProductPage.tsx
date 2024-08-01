@@ -51,7 +51,7 @@ const ProductPage = () => {
             ))}
           </div>
           <p className="text-md mt-5">Quantity</p>
-          <input type="number" onChange={(e) => setProductQuantity(Number(e.target.value))} value={productQuantity} defaultValue={1} min={1} max={5} className="w-24 h-12 bg-white mt-3 text-black pl-5 block" />
+          <input type="number" onChange={(e) => setProductQuantity(Number(e.target.value))} value={productQuantity} defaultValue={1} min={1} max={10} className="w-24 h-12 bg-white mt-3 text-black pl-5 block" />
           <button className="bg-[#A238FF] text-white font-normal text-lg w-full px-12 py-2 rounded-3xl shadow-custom transition duration-300 hover:text-black hover:bg-white mt-10" onClick={addToCart}>Add to cart</button>
           <div className="mt-6 flex flex-col justify-center items-center">
             {CollapsibleSections.map((section) => (

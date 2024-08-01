@@ -6,19 +6,17 @@ import ProductPage from './components/ProductPage/ProductPage';
 import Footer from './components/LandingPages/Footer';
 import { Provider } from 'react-redux';
 import store from './features/store';
-import Cart from './components/CartPages/Cart';
 
 function App() {
   return (
     <Provider store={store}>
     <Router>
       <div className='w-screen'>
-        <Header />
+        <Header/>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/product" element={<ProductPage />} />
+          <Route path="/" element={<HomePage/>} />
+          <Route path="/product" element={<ProductPage/>} />
         </Routes>
-        {/* <Cart /> */}
         <Footer />
       </div>
     </Router></Provider>
