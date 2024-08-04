@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
-import ProductImage from "../../../Img/Specifications_ProductImg.webp"
-import BatteryIcon from "../../../Img/BatteryIcon.webp"
-import Bluetooth from "../../../Img/BluetoothIcon.webp"
-import WaterIcon from "../../../Img/WaterIcon.webp"
-import WirelessIcon from "../../../Img/WirelessIcon.webp"
+import ProductImage from "../../../Img/Specifications_ProductImg.webp";
+import BatteryIcon from "../../../Img/BatteryIcon.webp";
+import Bluetooth from "../../../Img/BluetoothIcon.webp";
+import WaterIcon from "../../../Img/WaterIcon.webp";
+import WirelessIcon from "../../../Img/WirelessIcon.webp";
 import SpecificationsCard from './SpecificationsCard';
 import ButtonDecoration from '../../ButtonDecoration';
 
@@ -18,7 +18,6 @@ const Specifications = () => {
             const windowHeight = window.innerHeight;
             const distanceFromCenter = Math.abs(imagePosition + imageHeight / 2 - windowHeight / 2);
 
-            // Calculate opacity based on image position relative to the center of the viewport
             const opacity = Math.min(1, distanceFromCenter / windowHeight);
             
             setScrollOpacity(opacity);
@@ -63,4 +62,4 @@ const Specifications = () => {
   )
 }
 
-export default Specifications
+export default Specifications;

@@ -22,8 +22,8 @@ const Cart: React.FC<CartProps> = ({setCartShown}) => {
     }
     
   return (
-    <div className="fixed w-full h-full top-0 bottom-0 left-0 right-0 z-50 bg-black bg-opacity-20">
-        <div className="w-80 h-screen fixed top-0 bottom-0 right-0 bg-black [#1a1a1a] text-black grid grid-rows-10 ">
+    <div className="fixed w-full h-full top-0 bottom-0 left-0 right-0 z-50 bg-black bg-opacity-20 transition-all duration-300">
+        <div className="w-80 h-screen fixed top-0 bottom-0 right-0 bg-black [#1a1a1a] text-black grid grid-rows-10">
             <div className="row-span-1 h-full bg-white">
             <div className="relative text-2xl text-center pt-5">Cart</div>
             <div onClick={() => setCartShown(false)} className="absolute top-3 left-3 text-xl cursor-pointer">X</div>
