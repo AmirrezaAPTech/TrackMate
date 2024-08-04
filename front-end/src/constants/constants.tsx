@@ -4,6 +4,15 @@
 // import ProductBlack from "../Img/ProductImages/ProductBlack.webp"
 // import ProductTurquoise from "../Img/ProductImages/ProductTurquoise.webp"
 
+import visa from "../Img/Footer/Visa.webp"
+import Diners from "../Img/Footer/Diners.webp"
+import Discover from "../Img/Footer/Discover.webp"
+import PayPal from "../Img/Footer/PayPal.webp"
+import Amex from "../Img/Footer/brand-amex_3x.webp"
+import Chinaunionpay from "../Img/Footer//brand-chinaunionpay_3x.webp"
+import Jcb from "../Img/Footer/brand-jcb_3x.webp"
+import Mastercard from "../Img/Footer/brand-mastercard_3x.webp"
+
 // export const TrackMateColors = [
 //     {
 //         color: "white",
@@ -48,3 +57,29 @@ export const CollapsibleSections = [
         text:"I'm a shipping policy. I'm a great place to add more information about your shipping methods, packaging and cost. Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy from you with confidence."
     }
 ]
+
+
+export const FooterList = {
+    socialMedias: [
+        "Instagram",
+        "Facebook",
+        "Twitter",
+        "Tiktok",
+        "Youtube"
+    ],
+    terms: [
+        "Terms & Conditions",
+        "Shipping & Returns",
+        "Privacy Policy"
+    ],
+    images: [
+        visa,
+        Diners,
+        Discover,
+        PayPal,
+        Amex,
+        Chinaunionpay,
+        Jcb,
+        Mastercard,
+    ]
+}
