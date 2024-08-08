@@ -3,7 +3,8 @@ import { FooterList } from "../constants/constants"
 
 const Footer = () => {
   return (
-    <div id="footer" className="w-screen lg:h-[25vh] max-lg:pb-5 flex flex-col justify-center items-center gap-y-5">
+    <div id="footer" className="w-screen relative lg:h-[25vh] max-lg:pb-5 flex flex-col justify-center items-center gap-y-5">
+       <div className="absolute  right-24"><a href="#">Up</a></div>
         <div className="flex flex-col justify-start items-center gap-y-5">
         <div className="w-full h-[1px] bg-white lg:hidden"></div>
             <div className="flex justify-center items-center gap-x-36 px-2">
@@ -21,7 +22,7 @@ const Footer = () => {
             <div className="w-[95%] h-[1px] bg-white max-lg:hidden"></div>
             <div className="w-full flex justify-between max-lg:flex-col gap-y-4 items-center gap-x-36">
             <div className="flex justify-center items-center text-center">
-                <p>© 2035 by TrackMate. Created by <a href="https://github.com/AmirrezaAPTech" >AmirrezaAP</a></p>
+                <p>© 2035 by TrackMate. Created by <a href="https://github.com/AmirrezaAPTech" className="transition-all duration-200">AmirrezaAP</a></p>
             </div>
             <ul className="list-none flex justify-center flex-wrap gap-y-5 items-center gap-x-8">
                         {

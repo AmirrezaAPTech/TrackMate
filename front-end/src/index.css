@@ -137,3 +137,16 @@ a{
 .cart-animation.in-view {
   animation: slideInFromLeft 1s forwards;
 }
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.sidebar-animation {
+  animation: slideInFromLeft 200ms ease-in forwards;
+}

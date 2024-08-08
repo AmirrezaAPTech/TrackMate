@@ -47,7 +47,7 @@ const ProductPage = () => {
           <p className="text-md mt-5">Color</p>
           <div className="flex justify-start items-center gap-x-4 mt-3">
             {productColors.map((TrackMateColor) => (
-              <div key={TrackMateColor.color} className="bg-white w-5 h-5 rounded-full border border-white cursor-pointer" style={{ backgroundColor: TrackMateColor.color }} onClick={() => setSelectedColor(TrackMateColor.color)}></div>
+              <div key={TrackMateColor.color} className={`bg-white w-5 h-5 rounded-full border border-white cursor-pointer ${TrackMateColor.color === selectedColor ? 'border-2 border-[#9d2dff] shadow-2xl' : ''}`} style={{ backgroundColor: TrackMateColor.color }} onClick={() => setSelectedColor(TrackMateColor.color)}></div>
             ))}
           </div>
           <p className="text-md mt-5">Quantity</p>

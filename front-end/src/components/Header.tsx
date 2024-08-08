@@ -30,7 +30,7 @@ const Header = () => {
            <Link to="/product"> <button className='bg-[#A238FF] max-sm:hidden text-white font-normal text-md px-6 py-1 rounded-3xl shadow-custom transition duration-300 hover:text-black hover:bg-white'>Buy Now</button></Link>
         </div>
         {
-         cartShown && <Cart setCartShown={setCartShown}/>
+         cartShown && <Cart setCartShown={setCartShown} cartShown={cartShown}/>
         }
     </div>
   )
