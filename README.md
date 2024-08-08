@@ -1,6 +1,7 @@
 # TrackMate
 
 TrackMate is a web application built with TypeScript, React, and Vite. It is designed to help users manage and track their activities efficiently.
+![TrackMate Cover](./front-end/src/img/repoCover.JPG)
 
 ## Features
 
