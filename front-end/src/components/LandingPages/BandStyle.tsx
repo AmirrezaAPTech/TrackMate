@@ -30,7 +30,7 @@ const BandStyle = () => {
   }, []);
 
   return (
-    <div className="relative sm:h-[130vh] h-[110vh] flex flex-col justify-center items-center">
+    <div className="relative 2xl:h-[130vh] sm:h-[140vh] h-[110vh] flex flex-col justify-center items-center">
       <div className='w-screen absolute flex flex-col items-center z-50'>
       <div className="w-[600px] min-[2260px]:w-[1200px] 2xl:w-[800px]  max-sm:w-[90%] text-center flex flex-col justify-center items-center gap-y-9 pt-9">
         <img src={icon4} alt="icon4" />
