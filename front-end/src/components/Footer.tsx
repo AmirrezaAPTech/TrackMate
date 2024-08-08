@@ -4,7 +4,7 @@ import { FooterList } from "../constants/constants"
 const Footer = () => {
   return (
     <div id="footer" className="w-screen relative lg:h-[25vh] max-lg:pb-5 flex flex-col justify-center items-center gap-y-5">
-       <div className="absolute  right-24"><a href="#">Up</a></div>
+       <div className="absolute max-2xl:hidden right-24"><a href="#">Up</a></div>
         <div className="flex flex-col justify-start items-center gap-y-5">
         <div className="w-full h-[1px] bg-white lg:hidden"></div>
             <div className="flex justify-center items-center gap-x-36 px-2">
