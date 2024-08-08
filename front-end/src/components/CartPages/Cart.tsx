@@ -7,10 +7,9 @@ import { selectTotalQuantity } from '../../features/cartSlice'
 
 interface CartProps {
     setCartShown: (isShown: boolean) => void;
-    cartShown: boolean;
 }
 
-const Cart: React.FC<CartProps> = ({setCartShown, cartShown}) => {
+const Cart: React.FC<CartProps> = ({setCartShown}) => {
     const items = useSelector(selectCartItems);
     const totalQuantity = useSelector(selectTotalQuantity);
 
